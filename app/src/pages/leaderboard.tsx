@@ -1,10 +1,7 @@
 import React from 'react';
 
-import { SquareBtn } from 'components/trinogo-ui/';
 import { Card } from 'components/cards';
 
-import city1 from 'images/city1.png';
-import city1hover from 'images/city1.png';
 import { subtitle } from './util';
 import './leaderboard.css';
 

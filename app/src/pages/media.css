@@ -1,0 +1,10 @@
+.media {
+  min-height: 90vh !important;
+  max-height: 90vh !important;
+  background-image: url(../images/media.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -18.5vh;
+  background-position-x: 0vh;
+}

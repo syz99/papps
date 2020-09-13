@@ -27,7 +27,7 @@ const Navbar = () => {
               currRoute === '/transport' ? 'nav-item-active' : 'nav-item'
             }
           >
-            <a href="/transport">Transport Me</a>
+            <a href="/transport">Plan Your (Worst) Trip</a>
           </li>
           <li
             className={
@@ -39,7 +39,7 @@ const Navbar = () => {
           <li
             className={currRoute === '/plan' ? 'nav-item-active' : 'nav-item'}
           >
-            <a href="/plan">Plan Your (Worst) Trip</a>
+            <a href="/plan">Meet Your (Worst) Travel Buddy</a>
           </li>
         </ul>
       </nav>

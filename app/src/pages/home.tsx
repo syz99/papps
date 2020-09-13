@@ -1,19 +1,20 @@
 import React from 'react';
 
+import { useHistory } from 'react-router-dom';
 import { SquareBtn } from 'components/trinogo-ui/';
 import './home.css';
 
 const Home = () => {
+  const history = useHistory();
   const handleClick = () => {
-    window.location.href =
-      'https://repentantimpressionabledeclaration.juliaturner.repl.co/';
+    history.push('/transport');
   };
 
   return (
     <div className="home">
       <div className="text-modal">
         <div>
-          <SquareBtn text="Learn More" onClickHandler={handleClick} />
+          <SquareBtn text="Let's Go!" onClickHandler={handleClick} />
         </div>
       </div>
     </div>
