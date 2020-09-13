@@ -1,0 +1,23 @@
+/** this div surrounds the whole homge page (i.e. everything on screen besides navbar **/
+.home {
+  min-height: 90vh !important;
+  max-height: 90vh !important;
+  background-image: url(../images/Couchplane.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -14vh;
+}
+
+/** this is the div that surrounds "hey" and the learn more button **/
+.text-modal {
+  text-align: left;
+  line-height: 100%;
+  width: 52vh;
+  padding-top: 14vh;
+  margin-left: 9vh;
+
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+}
