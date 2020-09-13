@@ -1,0 +1,19 @@
+.container {
+  /* margin-left: 20vh; */
+}
+
+.container::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.column {
+  float: left;
+  width: 33.333%;
+  /* margin-left: 5vh; */
+}
+
+#img {
+  width: 47vh;
+}

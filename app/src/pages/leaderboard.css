@@ -1,0 +1,24 @@
+.leaderboard {
+  min-height: 90vh !important;
+}
+
+.text-modal-leaderboard {
+  text-align: left;
+  padding-top: 4vh;
+  margin-left: 10vh;
+}
+
+.leaderboard-header {
+  color: #df4b31;
+  font-weight: bolder;
+  font-size: 38px;
+}
+
+.leaderboard-subtitle {
+  font-size: 24px;
+  width: 110vh;
+}
+
+.leaderboard-cards {
+  text-align: center;
+}

@@ -16,7 +16,7 @@ const Transport = () => {
           Where in the world<br></br>do you want to go?
         </div>
         <div>
-          <SquareBtn text="Learn More" onClickHandler={handleClick} />
+          <SquareBtn text="Pick A Place" onClickHandler={handleClick} />
         </div>
       </div>
     </div>

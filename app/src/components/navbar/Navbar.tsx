@@ -24,6 +24,13 @@ const Navbar = () => {
           </li>
           <li
             className={
+              currRoute === '/transport' ? 'nav-item-active' : 'nav-item'
+            }
+          >
+            <a href="/transport">Transport Me</a>
+          </li>
+          <li
+            className={
               currRoute === '/leaderboard' ? 'nav-item-active' : 'nav-item'
             }
           >
@@ -32,21 +39,7 @@ const Navbar = () => {
           <li
             className={currRoute === '/plan' ? 'nav-item-active' : 'nav-item'}
           >
-            <a href="/plan">Plan Your (Not) Trip</a>
-          </li>
-          <li
-            className={
-              currRoute === '/transport' ? 'nav-item-active' : 'nav-item'
-            }
-          >
-            <a href="/transport">Transport Me</a>
-          </li>
-          <li
-            className={
-              currRoute === '/passport' ? 'nav-item-active' : 'nav-item'
-            }
-          >
-            <a href="/passport">My (Expired) Passport</a>
+            <a href="/plan">Plan Your (Worst) Trip</a>
           </li>
         </ul>
       </nav>
