@@ -1,0 +1,22 @@
+.transport {
+  min-height: 90vh !important;
+  max-height: 90vh !important;
+
+  background-image: url(../images/cityplane.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -15vh;
+  background-position-x: 0vh;
+}
+
+.transport-text-modal {
+  text-align: right;
+  /* width: 35vh; */
+  padding-top: 8vh;
+  margin-right: 18vh;
+
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+}

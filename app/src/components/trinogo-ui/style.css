@@ -1,12 +1,12 @@
 /** style of Learn More button **/
-.btn-learnmore {
-  width: 28vh;
+.btn-route {
+  width: 30vh;
   height: 9vh;
-  margin-top: 4vh;
+  /* margin-top: 8vh; */
   padding-top: 1.5vh;
   padding-bottom: 1.5vh;
 
-  background-color: #ffd602;
+  background-color: rgba(0, 0, 0, 0);
   border-color: white;
   border-width: 3px;
   border-style: solid;
@@ -16,7 +16,7 @@
 }
 
 /** when you hover over button what happens **/
-.btn-learnmore:hover {
+.btn-route:hover {
   background-color: rgba(0, 0, 0, 0.03);
   border-color: rgba(255, 255, 255, 0.7);
 }

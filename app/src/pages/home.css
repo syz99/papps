@@ -2,7 +2,7 @@
 .home {
   min-height: 90vh !important;
   max-height: 90vh !important;
-  background-image: url(../images/Couchplane.png);
+  background-image: url(../images/couchplane.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,10 +12,9 @@
 /** this is the div that surrounds "hey" and the learn more button **/
 .text-modal {
   text-align: left;
-  line-height: 100%;
-  width: 52vh;
-  padding-top: 14vh;
-  margin-left: 9vh;
+  /* width: 52vh; */
+  padding-top: 40vh;
+  margin-left: 16vh;
 
   font-size: 55px;
   font-weight: bold;
